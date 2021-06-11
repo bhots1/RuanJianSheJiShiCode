@@ -47,6 +47,8 @@ int main()
 		}   
 		 cout<<endl;         
     }
+    
+    //显示结果 
     cout<<"----------------------------"<<endl;
     
     for(int i=N; i>=1; i--)//物品的后面开始遍历 
@@ -62,6 +64,8 @@ int main()
     }
     return 0;
 }
+
+
 int max_value()
 {
     //初始没有物品时候，背包的价值为0
@@ -99,5 +103,13 @@ int max_value()
     }
     return select[N][W];  //最终求得最大值
 }
+
+
+
+
+
+
+
+
 
 
